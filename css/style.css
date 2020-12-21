@@ -1,0 +1,393 @@
+body
+{
+    overflow-x: hidden;
+    background: #E5E5E5;
+    margin: 0;
+    padding: 0;
+        
+}
+
+
+
+/* ---------------------------------NAVBAR-------------------------------------- */
+
+.navbar
+{    
+    position: sticky;
+    cursor: pointer;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.navback
+{    
+    cursor: pointer;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    opacity: 0.6;
+
+}
+
+
+.nav-text
+{
+    position: absolute;
+    top: 0px;
+}
+
+
+
+.nav-list li a
+{    
+    text-decoration: none;
+    color: white;   
+}
+
+.support:hover
+{
+    color:#f2c4ff;
+}
+
+.premium:hover
+{
+    color:#f2c4ff;
+}
+
+.download:hover
+{
+    color:#f2c4ff;
+}
+
+.signup:hover{
+    color:rgb(214, 210, 210);
+}
+
+.login:hover{
+    color:rgb(214, 210, 210);
+}
+
+
+.nav-list li
+{
+    list-style: none;
+    text-align: right;
+    padding: 20px 25px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-list
+{
+    display: flex;
+    width: 100%;
+    padding: 0px 840px;
+    color: white;
+}
+
+
+
+
+/* ----------------------------UPPER BACKGROUND-------------------------------- */
+
+
+.background
+{
+    position: absolute;
+    width: 100%;
+    height: 565px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(98.46deg, #E42EF3 8.81%, rgba(135, 32, 154, 0.755924) 90.72%, rgba(186, 36, 217, 0.727044) 100.41%, rgba(169, 31, 206, 0.616496) 100.42%, rgba(146, 26, 191, 0.468899) 100.43%, rgba(116, 48, 158, 0.299787) 100.44%, rgba(97, 49, 143, 0.178316) 100.45%, rgba(71, 19, 137, 0.116667) 100.46%);
+    clip-path: inset(0%);
+}
+
+
+.dot1
+{
+    position: absolute;
+    width: 535px;
+    height: 532px;
+    left: 1100px;
+    top: -100px;
+    border-radius: 50%;
+    display: inline;
+    background: rgba(143, 0, 255, 0.5);
+    opacity: 0.7;
+    
+}
+
+
+.dot2
+{
+    position: absolute;
+    width: 788px;
+    height: 668px;
+    left: -65px;
+    top: 167px;
+    border-radius: 50% 20%;
+    display: inline;
+    background: rgba(143, 0, 255, 0.5);
+    opacity: 0.7;    
+}
+
+
+.start
+{
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    right: 1200px;
+    bottom: 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;    
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    color: black;
+    font-size: 25px;
+
+}
+
+
+.start a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.text-big
+{
+    position: absolute;
+    width: 961px;
+    height: 233px;
+    left: 80px;
+    top: 130px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+/* --------------------------------BODY------------------------------------ */
+
+.why
+{    
+    position: absolute;
+    width: 488px;
+    height: 90px;
+    left: 440px;
+    top: 591px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    color: #000000;
+    padding: 0px 90px;
+}
+
+
+.background1
+{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 1040px;
+    background: linear-gradient(180deg, #87209A 71.87%, rgba(15, 0, 75, 0.267708) 150.93%, rgba(59, 12, 105, 0.16875) 166.52%, rgba(135, 32, 154, 0) 179.83%);
+}
+
+.feature-circle1
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 410px;
+    top: 740px;
+    border-radius: 50%;
+    display: inline;
+    background: linear-gradient(180deg, rgba(142, 0, 253, 0.99) 40.2%, rgba(249, 12, 226, 0.928125) 106.32%, rgba(196, 196, 196, 0) 248.95%);
+    
+}
+
+.feature-circle2
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 610px;
+    top: 740px;
+    border-radius: 50%;
+    display: inline;
+    background: linear-gradient(180deg, rgba(142, 0, 253, 0.99) 40.2%, rgba(249, 12, 226, 0.928125) 106.32%, rgba(196, 196, 196, 0) 248.95%);
+    
+}
+
+.feature-circle3
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 810px;
+    top: 740px;
+    border-radius: 50%;
+    display: inline;
+    background: linear-gradient(180deg, rgba(142, 0, 253, 0.99) 40.2%, rgba(249, 12, 226, 0.928125) 106.32%, rgba(196, 196, 196, 0) 248.95%);
+    
+}
+
+
+.feature-circle4
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1010px;
+    top: 740px;
+    border-radius: 50%;
+    display: inline;
+    background: linear-gradient(180deg, rgba(142, 0, 253, 0.99) 0%, rgba(249, 12, 226, 0.928125) 106.32%, rgba(196, 196, 196, 0) 248.95%);
+    
+}
+
+
+
+
+/* --------------------------------FOOTER------------------------------------ */
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 1990px;
+    background: #000000;
+    
+}
+
+.instagram
+{
+    position: absolute;
+    top: 120px;
+    left: 1100px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: inline;
+    background: rgb(59, 59, 59);
+    
+}
+
+.facebook
+{
+    position: absolute;
+    top: 120px;
+    left: 1170px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: inline;
+    background: rgb(59, 59, 59);
+}
+
+.twitter
+{
+    position: absolute;
+    top: 120px;
+    left: 1240px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: inline;
+    background: rgb(59, 59, 59);
+}
+
+
+.company{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.links{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+.footer-list{
+    position: absolute;
+    top: 135px;
+    left: -27px;
+}
+
+
+.footer-list0{
+    position: absolute;
+    top: 135px;
+    left: 765px;
+}
+
+
+.footer-list li{
+    padding: 8px 590px;
+}
+
+.footer-list0 li{
+    padding: 8px 0px;
+}
+
+.footer-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;   
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+.footer-list0 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;   
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+.instagram:hover{
+    background-color:#985ca8;
+}
+
+.twitter:hover{
+    background-color:#985ca8;
+}
+
+.facebook:hover{
+    background-color:#985ca8;
+}
+
+.footer-list li a:hover{
+    color:#e89afd;
+}
+
+.footer-list0 li a:hover{
+    color:#e89afd;
+}
